@@ -1,0 +1,29 @@
+.container-svg-bottom {
+	width: 170px;
+	height: 92px;
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
+	transition: border-color var(--time) var(--time-func);
+	&:hover, &:focus {
+		border-color: var(--blue);
+	}
+}
+.svg-bottom-link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    // outline: none;
+	&:focus,&:hover {
+		border-color: var(--blue);
+		border-color: var(--blue);
+		.svg-bottom {
+			fill: var(--blue);
+		}
+	}
+}
+.svg-bottom {
+	fill: #AFB1B8;
+	transition: fill var(--time) var(--time-func);
+}

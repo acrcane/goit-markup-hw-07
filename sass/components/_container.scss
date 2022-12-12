@@ -1,0 +1,49 @@
+.container{
+    width:1200px;
+    margin:0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bg-section{
+    background-color: var(--bgSection);
+}
+.section{
+    padding: 94px 0
+}
+// --------------------------------------------------
+.info-row__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.imgs__list{
+    @extend .info-row__list;
+}
+.members__list{
+    @extend .info-row__list;
+}
+.client-list{
+    @extend .info-row__list;
+}
+// ---------------------------------------------------
+.contacts__container{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+// ----------------------------------------------------
+.footer-container{
+    display: block;
+    padding: 60px 0;
+}
+.footer-row{
+    display: flex;
+    align-items: baseline;
+}
+// ----------------------------------------------------
+.footer-form-container {
+    margin-left: auto;
+    padding-left: 0;
+}

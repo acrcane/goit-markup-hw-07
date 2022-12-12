@@ -1,0 +1,1 @@
+document.querySelector('.out-10').innerHTML = '<h2>Hi</h2>'
