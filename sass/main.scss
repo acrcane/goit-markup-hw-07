@@ -4,13 +4,14 @@
 @import './base/hide';
 @import './base/fonts';
 
-@import './components/container';
+
 @import './components/backdrop';
 @import './components/buttons';
 @import './components/logo';
 @import './components/overlay';
 
 
-@import './layouts/forms';
+@import './layouts/header';
+
 @import './layouts/portfilio-section-btn';
 @import './layouts/portfolio-section-info';
